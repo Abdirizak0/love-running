@@ -1,27 +1,32 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-}
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: rgb(240, 255, 249);
-
-}
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
 
 
-header{
-    background-color: aquamarine;
-}
+ }
 
-main{
-    background-color: antiquewhite;
-    flex: 10 auto;
-}
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     color: #3a3a3a;
+     font-family: 'lato'sans-serif;
 
-footer{
-    background-color: blueviolet;
-}
+ }
+
+
+ header {
+     background-color:lightcoral;
+ }
+
+ main {
+     background-color:lightblue ;
+     flex: 10 auto;
+ }
+
+ footer {
+     background-color: blueviolet;
+ }
