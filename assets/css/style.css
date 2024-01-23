@@ -19,7 +19,11 @@
 
 
  header {
-     background-color:lightcoral;
+     background-color:lightgreen;
+ }
+
+ h1{
+    font-family: 'oswald', sans-serif;
  }
 
  main {
