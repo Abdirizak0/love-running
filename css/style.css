@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(240, 255, 249);
+
+}
+
+
+header{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: antiquewhite;
+    flex: 10 auto;
+}
+
+footer{
+    background-color: blueviolet;
+}
