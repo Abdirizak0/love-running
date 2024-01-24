@@ -1,10 +1,10 @@
-@import url ('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 
 }
 
@@ -59,7 +59,7 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: white;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -83,9 +83,41 @@ nav {
 main {
     background-color: lightblue;
     flex: 1 0 auto;
-    margin-top: 47pxgit ;
+    margin-top: 47px;
 }
 
 footer {
     background-color: blueviolet;
+}
+
+@media screen and (min-width:768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo{
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem
+    }
+
+    main{
+        margin-top: 79px;
+    }
 }
