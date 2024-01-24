@@ -39,9 +39,6 @@
      color: #252525;
  }
 
- .active{
-border-bottom: 1px solid #3a3a3a;
- }
 
  #menu {
      font-family: 110%;
@@ -53,6 +50,17 @@ border-bottom: 1px solid #3a3a3a;
      margin-bottom: 1em;
  }
 
+.active{
+border-bottom: 1px solid #3a3a3a;
+ }
+nav{
+ position:absolute;
+ backround-color: #ffffff;
+ width:100%;
+ left: 0;
+ padding: 0 1rem;
+ box-shadow: 0 2px 2px #3a3a3a;
+}
  main {
      background-color: lightblue;
      flex: 10 auto;
