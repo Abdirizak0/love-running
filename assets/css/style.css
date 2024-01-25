@@ -103,7 +103,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -111,13 +111,20 @@ footer {
         display: none;
     }
 
-    #logo{
+    #logo {
         font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem
     }
 
-    main{
+    main {
         margin-top: 79px;
+    }
+}
+
+/*Large devices(laptops and desktops,992px and up)*/
+@media screen and (min-width) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
